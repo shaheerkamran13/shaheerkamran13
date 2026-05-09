@@ -26,7 +26,7 @@ I'm a fresh graduate Software Engineer who got obsessed with the idea that softw
 - **Full Stack** — because I refuse to be a one-trick pony
 - **Real problems** — not toy demos, actual things people use
 
-**Currently hunting for:** AI Engineer · Backend · Full Stack roles in **Lahore**
+**Currently hunting for:** AI Engineer · Backend · Full Stack roles 
 
 *"Ship it. Learn from it. Build better."*
 
