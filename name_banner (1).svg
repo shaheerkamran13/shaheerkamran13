@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="800" height="140" style="background:#0d1117">
+  <defs>
+    <style>
+      .word {
+        font-family: 'Courier New', monospace;
+        font-weight: 400;
+        font-size: 26px;
+        fill: none;
+        stroke-width: 1px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .word-fill {
+        font-family: 'Courier New', monospace;
+        font-weight: 400;
+        font-size: 26px;
+        opacity: 0;
+      }
+
+      .w1s { stroke: #ffffff; stroke-dasharray: 200; stroke-dashoffset: 200; animation: draw 0.8s ease 0.3s forwards; }
+      .w1f { fill: #ffffff; animation: fadeIn 0.5s ease 1s forwards; }
+
+      .w2s { stroke: #ffffff; stroke-dasharray: 300; stroke-dashoffset: 300; animation: draw 0.8s ease 1.3s forwards; }
+      .w2f { fill: #ffffff; animation: fadeIn 0.5s ease 2s forwards; }
+
+      .w3s { stroke: #ffffff; stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 2s ease 2.2s forwards; }
+      .w3f { fill: #ffffff; animation: fadeIn 0.5s ease 4s forwards; }
+
+      .w4s { stroke: #00d9ff; stroke-dasharray: 800; stroke-dashoffset: 800; animation: draw 1.5s ease 4.3s forwards; }
+      .w4f { fill: #00d9ff; animation: fadeIn 0.5s ease 5.6s forwards; }
+
+      .w5s { stroke: #ffffff; stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 1.5s ease 5.8s forwards; }
+      .w5f { fill: #ffffff; animation: fadeIn 0.5s ease 7.1s forwards; }
+
+      .uline {
+        stroke: #00d9ff;
+        stroke-width: 1.5;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        opacity: 0.7;
+        animation: draw 0.8s ease 7.3s forwards;
+      }
+
+      .sub {
+        font-family: 'Courier New', monospace;
+        font-weight: 400;
+        font-size: 11px;
+        fill: #8b949e;
+        letter-spacing: 3px;
+        opacity: 0;
+        animation: fadeIn 0.8s ease 7.7s forwards;
+      }
+
+      .wave-emoji {
+        font-family: 'Courier New', monospace;
+        font-size: 26px;
+        fill: #ffffff;
+        opacity: 0;
+        animation: fadeIn 0.5s ease 1s forwards;
+      }
+
+      @keyframes draw   { to { stroke-dashoffset: 0; } }
+      @keyframes fadeIn { to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- stroke: draws "Hi" only — emoji removed from stroke layer -->
+  <text x="390" y="45" text-anchor="end" class="word w1s">Hi</text>
+  <!-- fill: "Hi" text fill -->
+  <text x="390" y="45" text-anchor="end" class="word-fill w1f">Hi</text>
+  <!-- animated 👋 — single source of truth, no duplicate -->
+  <text x="396" y="45" class="wave-emoji">&#x1F44B;
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 410 40; -10 410 40; 12 410 40; -10 410 40; 9 410 40; 0 410 40; 0 410 40"
+      keyTimes="0; 0.1; 0.2; 0.3; 0.4; 0.5; 1"
+      dur="1.8s"
+      begin="1.5s"
+      repeatCount="indefinite"
+    />
+  </text>
+
+  <!-- I am -->
+  <text x="182" y="90" class="word w2s">I am</text>
+  <text x="182" y="90" class="word-fill w2f">I am</text>
+
+  <!-- Muhammad -->
+  <text x="268" y="90" class="word w3s">Muhammad</text>
+  <text x="268" y="90" class="word-fill w3f">Muhammad</text>
+
+  <!-- Shaheer -->
+  <text x="401" y="90" class="word w4s">Shaheer</text>
+  <text x="401" y="90" class="word-fill w4f">Shaheer</text>
+
+  <!-- Kamran -->
+  <text x="518" y="90" class="word w5s">Kamran</text>
+  <text x="518" y="90" class="word-fill w5f">Kamran</text>
+
+  <!-- Underline -->
+  <line class="uline" x1="182" y1="100" x2="618" y2="100"/>
+
+  <!-- Subtitle -->
+  <text x="400" y="128" text-anchor="middle" class="sub">Fresh Grad Software Engineer . AI Builder . Open to Work</text>
+
+</svg>
