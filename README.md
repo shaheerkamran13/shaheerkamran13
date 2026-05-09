@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src="https://github.com/user-attachments/assets/a7605427-fa69-416f-85ec-955ea51490c1" alt="Banner" width="480" height="250" />
+<img src="https://github.com/user-attachments/assets/a7605427-fa69-416f-85ec-955ea51490c1" alt="Banner" width="580" height="350" />
 <img src="https://raw.githubusercontent.com/shaheerkamran13/shaheerkamran13/main/name_banner.svg" alt="Hi I am Muhammad Shaheer Kamran" width="900" />
 
 
