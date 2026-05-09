@@ -86,12 +86,11 @@ I'm a fresh graduate Software Engineer who got obsessed with the idea that softw
 
 ---
 
-## Let's Connect
+## Socials
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shaheerkamran)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shaheerkamran13)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaheerkamran13@gmail.com)
 
 </div>
@@ -105,3 +104,12 @@ I'm a fresh graduate Software Engineer who got obsessed with the idea that softw
 ![Visitor Count](https://komarev.com/ghpvc/?username=shaheerkamran13&color=00D9FF&style=flat-square&label=Profile+Views)
 
 </div>
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300"/>
+</div>
+<br>
+
+
+
